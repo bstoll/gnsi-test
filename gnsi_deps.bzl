@@ -51,9 +51,9 @@ def gnsi_deps():
     if not native.existing_rule("com_google_protobuf"):
         http_archive(
             name = "com_google_protobuf",
-            url = "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v29.3.zip",
-            strip_prefix = "protobuf-29.3",
-            sha256 = "85803e01f347141e16a2f770213a496f808fff9f0138c7c0e0c9dfa708b0da92",
+            url = "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v31.0.zip",
+            strip_prefix = "protobuf-31.0",
+            sha256 = "e9e18ba348449f35d8622c19543d729bf8e246d5f4233a4b737ded92f03abd88",
             repo_mapping = {
                 "@proto_bazel_features": "@bazel_features",
             },
