@@ -21,9 +21,9 @@ def gnsi_deps():
     if not native.existing_rule("bazel_features"):
         http_archive(
             name = "bazel_features",
-            sha256 = "af3d4fb1cf4f25942cb4a933b1ad93a0ea9fe9ee70c2af7f369fb72a67c266e5",
-            strip_prefix = "bazel_features-1.21.0",
-            url = "https://github.com/bazel-contrib/bazel_features/releases/download/v1.21.0/bazel_features-v1.21.0.tar.gz",
+            sha256 = "a660027f5a87f13224ab54b8dc6e191693c554f2692fcca46e8e29ee7dabc43b",
+            strip_prefix = "bazel_features-1.30.0",
+            url = "https://github.com/bazel-contrib/bazel_features/releases/download/v1.30.0/bazel_features-v1.30.0.tar.gz",
         )
     if not native.existing_rule("bazel_gazelle"):
         http_archive(
