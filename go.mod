@@ -6,7 +6,7 @@ require (
 	github.com/openconfig/gnmi v0.14.1
 	google.golang.org/grpc v1.69.2
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.5.1
-	google.golang.org/protobuf v1.36.2
+	google.golang.org/protobuf v31.1
 )
 
 require (
