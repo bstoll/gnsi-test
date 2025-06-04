@@ -37,9 +37,9 @@ def gnsi_deps():
     if not native.existing_rule("com_github_grpc_grpc"):
         http_archive(
             name = "com_github_grpc_grpc",
-            url = "https://github.com/grpc/grpc/archive/refs/tags/v1.69.0.tar.gz",
-            strip_prefix = "grpc-1.69.0",
-            sha256 = "cd256d91781911d46a57506978b3979bfee45d5086a1b6668a3ae19c5e77f8dc",
+            url = "https://github.com/grpc/grpc/archive/refs/tags/v1.72.1.tar.gz",
+            strip_prefix = "grpc-1.72.1",
+            sha256 = "8caafd69b78c514410962abd32b17981cc97cf72f09ae763395bb57b8fa0a320",
         )
     if not native.existing_rule("com_google_googleapis"):
         http_archive(
